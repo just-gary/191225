@@ -141,7 +141,7 @@ $('document').ready(function(){
 		loopTen();
 		
 		$(this).fadeOut('slow').delay(5000).promise().done(function(){
-			$('#cake_fadein').fadeIn('slow');
+			$('#wish_message').fadeIn('slow');
 		});
 	});	
 
